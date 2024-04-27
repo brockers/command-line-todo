@@ -4,7 +4,8 @@
   "description": "Command line todo application with all the features",
   "main": "index.js",
   "scripts": {
-    "test": "echo 'We really need to add some testing!!!'"
+    "test": "echo 'We really need to add some testing!!!'",
+    "bobisawesome": "echo 'Bobby is REALLY awesome!!'"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/brockers/command-line-todo/issues"
   },
-  "homepage": "https://github.com/brockers/command-line-todo#readme"
+  "homepage": "https://github.com/brockers/command-line-todo#readme",
+  "dependencies": {
+    "prompts": "^2.4.2"
+  }
 }
