@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Command line todo application with all the features",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo 'We really need to add some testing!!!'",
     "bobisawesome": "echo 'Bobby is REALLY awesome!!'",
@@ -19,6 +20,8 @@
   },
   "homepage": "https://github.com/brockers/command-line-todo#readme",
   "dependencies": {
+    "console-log-colors": "^0.5.0",
+    "jest": "^29.7.0",
     "prompts": "^2.4.2"
   }
 }
